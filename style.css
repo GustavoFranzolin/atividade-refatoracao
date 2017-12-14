@@ -1,0 +1,219 @@
+
+/*Estilos e estruturas para todos modais*/
+#formata-texto{
+
+	font-weight: normal;
+	color: black;
+	opacity: 0.5;
+	font-size: 0.75em;
+}
+
+i.icon-position{
+	position: absolute;
+	left: 220px;
+	top: 33px;
+}
+
+button.close{
+	
+	font-size: 2.5rem;
+	margin-bottom: 35px;
+
+}
+
+.close.close-estilo{
+	color: #FFF;	
+	opacity: 1;
+}
+
+.modal-footer.modal-center{
+
+	justify-content: center;
+}
+
+
+/*Estilos e estruturas para o Success*/
+
+.modal-header.modal-cabecalhoSuccess{
+
+	padding:0;
+	padding-bottom: 50px;	
+	background-color: #5cb85c;
+	color: white;
+}
+
+
+.modal-body.modal-principalSuccess{
+
+	text-align: center;
+	color: #5cb85c;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.btn-secondary.estilo-buttonSuccess{
+
+	border: 1px solid #5cb85c;
+	background-color: #FFF;
+	color: #5cb85c;
+
+}
+
+.btn-secondary.estilo-buttonSuccess:hover{
+	background-color: white;
+	color: #5cb85c;
+	border-color: rgba(0,0,0,0.5);
+}
+
+.btn-primary.estilo-buttonSuccess{
+	border: 1px solid #5cb85c;
+	background-color: #FFF;
+	color: #5cb85c;
+}
+
+.btn-primary.estilo-buttonSuccess:hover{
+	background-color: white;
+	color: #5cb85c;
+	border-color: rgba(0,0,0,0.5);
+}
+
+
+/*Estilos e estruturas para o Primary*/
+
+
+.modal-header.modal-cabecalhoPrimary{
+
+	padding:0;
+	padding-bottom: 50px;	
+	background-color: #0275d8;
+	color: white;
+}
+
+
+.modal-body.modal-principalPrimary{
+
+	text-align: center;
+	color: #0275d8;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.btn-secondary.estilo-buttonPrimary{
+
+	border: 1px solid #0275d8;
+	background-color: #FFF;
+	color: #0275d8;
+
+}
+
+.btn-secondary.estilo-buttonPrimary:hover{
+	background-color: white;
+	color: #0275d8;
+	border-color: rgba(0,0,0,0.5);
+}
+
+.btn-primary.estilo-buttonPrimary{
+	border: 1px solid #0275d8;
+	background-color: #FFF;
+	color: #0275d8;
+}
+
+.btn-primary.estilo-buttonPrimary:hover{
+	background-color: white;
+	color: #0275d8;
+	border-color: rgba(0,0,0,0.5);
+}
+
+/*Estilos e estruturas para o Warning*/
+
+
+.modal-header.modal-cabecalhoWarning{
+
+	padding:0;
+	padding-bottom: 50px;	
+	background-color: #f0ad4e;
+	color: white;
+}
+
+
+.modal-body.modal-principalWarning{
+
+	text-align: center;
+	color: #f0ad4e;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.btn-secondary.estilo-buttonWarning{
+
+	border: 1px solid #f0ad4e;
+	background-color: #FFF;
+	color: #f0ad4e;
+
+}
+
+.btn-secondary.estilo-buttonWarning:hover{
+	background-color: white;
+	color: #f0ad4e;
+	border-color: rgba(0,0,0,0.5);
+}
+
+.btn-primary.estilo-buttonWarning{
+	border: 1px solid #f0ad4e;
+	background-color: #FFF;
+	color: #f0ad4e;
+}
+
+.btn-primary.estilo-buttonWarning:hover{
+	background-color: white;
+	color: #f0ad4e;
+	border-color: rgba(0,0,0,0.5);
+}
+
+
+/*Estilos e estruturas para o Danger*/
+
+
+.modal-header.modal-cabecalhoDanger{
+
+	padding:0;
+	padding-bottom: 50px;	
+	background-color: #c9302c;
+	color: white;
+}
+
+
+.modal-body.modal-principalDanger{
+
+	text-align: center;
+	color: #c9302c;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.btn-secondary.estilo-buttonDanger{
+
+	border: 1px solid #c9302c;
+	background-color: #FFF;
+	color: #c9302c;
+
+}
+
+.btn-secondary.estilo-buttonDanger:hover{
+	background-color: white;
+	color: #c9302c;
+	border-color: rgba(0,0,0,0.5);
+}
+
+.btn-primary.estilo-buttonDanger{
+	border: 1px solid #c9302c;
+	background-color: #FFF;
+	color: #c9302c;
+}
+
+.btn-primary.estilo-buttonDanger:hover{
+	background-color: white;
+	color: #c9302c;
+	border-color: rgba(0,0,0,0.5);
+}
+

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<title>Atividade - Refatoração (modal)</title>
+		<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+</head>
+<body>
+
+
+
+	<!-- Button trigger modal -->
+<button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModalLongSuccess">
+Success
+</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLongPrimary">
+Primary
+</button>
+<button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModalLongWarning">
+Warning
+</button>
+<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalLongDanger">
+Danger
+</button>
+
+
+<!-- Modal Success -->
+<div class="modal fade" id="exampleModalLongSuccess" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header modal-cabecalhoSuccess">  	
+        <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+		  <i class="fa fa-check-circle-o icon-position fa-4x" aria-hidden="true"></i>
+        <button type="button" class="close close-estilo" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+
+        </button>
+      </div>
+      <div class="modal-body modal-principalSuccess">
+        	Great! 
+        	<p id="formata-texto">Your data has been successfully saved.</p>
+            </div>
+      <div class="modal-footer modal-center">
+        <button type="button" class="btn btn-secondary estilo-buttonSuccess" data-dismiss="modal">BACK TO MY WORK</button>
+        <button type="button" class="btn btn-primary estilo-buttonSuccess">BACK TO STORE HOURS</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Modal  Primary-->
+<div class="modal fade" id="exampleModalLongPrimary" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header modal-cabecalhoPrimary">  	
+        <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+		  <i class="fa fa-check-circle-o icon-position fa-4x" aria-hidden="true"></i>
+        <button type="button" class="close close-estilo" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+
+        </button>
+      </div>
+      <div class="modal-body modal-principalPrimary">
+        	Very Good! 
+        	<p id="formata-texto">Your data has been successfully saved.</p>
+            </div>
+      <div class="modal-footer modal-center">
+        <button type="button" class="btn btn-secondary estilo-buttonPrimary" data-dismiss="modal">BACK TO MY WORK</button>
+        <button type="button" class="btn btn-primary estilo-buttonPrimary">BACK TO STORE HOURS</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal  Warning-->
+<div class="modal fade" id="exampleModalLongWarning" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header modal-cabecalhoWarning">  	
+        <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+		  <i class="fa fa-check-circle-o icon-position fa-4x" aria-hidden="true"></i>
+        <button type="button" class="close close-estilo" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+
+        </button>
+      </div>
+      <div class="modal-body modal-principalWarning">
+        	Caution! 
+        	<p id="formata-texto">Your data is on warning.</p>
+            </div>
+      <div class="modal-footer modal-center">
+        <button type="button" class="btn btn-secondary estilo-buttonWarning" data-dismiss="modal">BACK TO MY WORK</button>
+        <button type="button" class="btn btn-primary estilo-buttonWarning">BACK TO STORE HOURS</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal  Danger-->
+<div class="modal fade" id="exampleModalLongDanger" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header modal-cabecalhoDanger">  	
+        <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+		  <i class="fa fa-check-circle-o icon-position fa-4x" aria-hidden="true"></i>
+        <button type="button" class="close close-estilo" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+
+        </button>
+      </div>
+      <div class="modal-body modal-principalDanger">
+        	Danger! 
+        	<p id="formata-texto">Your data has has not been saved</p>
+            </div>
+      <div class="modal-footer modal-center">
+        <button type="button" class="btn btn-secondary estilo-buttonDanger" data-dismiss="modal">BACK TO MY WORK</button>
+        <button type="button" class="btn btn-primary estilo-buttonDanger">BACK TO STORE HOURS</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+</body>
+</html>
